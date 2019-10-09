@@ -14,3 +14,16 @@ Description: Eliminate the screenshot preview on iOS 11.
 Author: Simalary (Chris)
 Name: PreviewBeGone
 
+Package: io.github.QiaoIsMySky.stealthsnap
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Yin
+Filename: /root/deb/io.github.QiaoIsMySky.stealthsnap_2.0_iphoneos-arm.deb
+Size: 564
+MD5sum: b2ae722c02741aa5b0090f0db146942d
+SHA1: 39f81d1d8d91a9437947634467c9e8ea06a52ece
+SHA256: 4e529d3f52cd5ef9483989e8cdaa6707ea708aeaad9cd0994addff48ac228ab1
+Section: Tweaks
+Description: Mute
+Author: Yin
+Name: StealthSnap
