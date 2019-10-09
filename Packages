@@ -1,0 +1,16 @@
+Package: com.simalary.auxiliumdevelopment.previewbegone
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Simalary (Chris)
+Installed-Size: 117
+Depends: mobilesubstrate, firmware(>=11.0)
+Filename: ./debs/com.simalary.auxiliumdevelopment.previewbegone_1.0_iphoneos-arm.deb
+Size: 2882
+MD5sum: 3d312d2844ea5ef7568922e6796eadcc
+SHA1: 66616c0c6724186683735f5566d346f2e32e648c
+SHA256: 1371a2f0912ebd2497dd0add2300d60885a358c6ed759a720ae7cc3755877eac
+Section: Tweaks
+Description: Eliminate the screenshot preview on iOS 11.
+Author: Simalary (Chris)
+Name: PreviewBeGone
+
