@@ -18,11 +18,11 @@ Package: io.github.QiaoIsMySky.stealthsnap
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Yin
-Filename: ./debs/io.github.QiaoIsMySky.stealthsnap_2.0_iphoneos-arm.deb
-Size: 564
-MD5sum: b2ae722c02741aa5b0090f0db146942d
-SHA1: 39f81d1d8d91a9437947634467c9e8ea06a52ece
-SHA256: 4e529d3f52cd5ef9483989e8cdaa6707ea708aeaad9cd0994addff48ac228ab1
+Filename: /root/deb/io.github.QiaoIsMySky.stealthsnap_2.0_iphoneos-arm.deb
+Size: 556
+MD5sum: b162b20b4c682ac01f8cb39e2665df10
+SHA1: 2193996930ed35c76fa20f5f244e91e8dc31b48a
+SHA256: 7a2f788c4ceafbd2cd07f0de4297d74462474f59826550e29a0903b2dc7abbe5
 Section: Tweaks
 Description: Mute
 Author: Yin
