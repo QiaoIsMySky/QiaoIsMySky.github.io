@@ -201,3 +201,69 @@ Description: PreTend Wifi
 Author: Kim Streich
 Icon: file:///Applications/Unrestrictor3G.app/Icon.png
 Name: 3G Unrestrictor 5
+
+Package: ch.mdaus.sylph
+Version: 1.2~Beta.1
+Architecture: iphoneos-arm
+Maintainer: Max Dausch <max.dausch@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, ch.mdaus.utils (>= 0.0.4)
+Filename: ./debs/ch.mdaus.sylph_1.2~Beta.1.deb
+Size: 69370
+MD5sum: 5203aa41d2d2b503d56efee5cc9ee064
+SHA1: f623f2cc3e81ff38adf6dcb143f5faeabdd1a514
+SHA256: b3642c4ae8ccc0d0a0a0aa984494d4bfe5e507825c212e9ac2908ff0418d4b21
+Section: Tweaks
+Description: Customize your LS music player
+Author: Max Dausch <max.dausch@gmail.com>
+Name: Sylph
+
+Package: ch.mdaus.utils
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 236
+Filename: ./debs/ch.mdaus.utils_0.0.4.deb
+Size: 13304
+MD5sum: c9e92bdaa35583767938a7b9dac53fae
+SHA1: 2eea9c551eb3fa660a54b06fb49f67cdc754c37c
+SHA256: 30ed3901941278ee5e0521a8c2815a0432a3ba12d6e101614dec93fc1b195eac
+Section: System
+Description: A collection of common functions for my tweaks. More documentation will be coming soon.
+Tag: role::developer
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Name: MDausch Utils
+
+Package: com.creaturecoding.shuffle
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1408
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Filename: ./debs/com.creaturecoding.shuffle_1.0.4.deb
+Size: 177652
+MD5sum: 0665119b232cc40faf761c6f38c10cc4
+SHA1: 5868b2e636d1627cc34adba65adb109ccb19bea9
+SHA256: 0ae1052e45cf9c551a880c84c220bae05a2c49735ca7aa5b96efb182de824f7a
+Section: Tweaks
+Description: Mix up your preferences
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: shuffle
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 4652
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./debs/com.creaturecoding.libcspreferences_1.2.0.deb
+Size: 629010
+MD5sum: 6c7dacefe5e329ede71dd5e3c4984641
+SHA1: f66d400bc754cca0b18d77a8ab52d7ac12f356bc
+SHA256: 55215ca33d96ea69c58b7b4234a08c4eab26ff1a8fb2994f0bd491c6bd8de3c3
+Section: System
+Description: A Preference Library that doesn't suck!
+Author: CreatureSurvive <support@creaturecoding.com>
+Name: libCSPreferences
