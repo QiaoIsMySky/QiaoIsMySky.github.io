@@ -59,3 +59,19 @@ Section: Addons (ControlCenter)
 Description: コントロールセンターからリスプリング
 Author: 4nni3 <4nni3.14@gmail.com>
 Name: RespringButton
+
+Package: com.yadkin.redditnoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: kemmis <rafe@kemmis.info>
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: /root/deb/com.yadkin.redditnoads_0.0.1.deb
+Size: 2744
+MD5sum: 0d8f278f830b9e70f5a7e34d2458b001
+SHA1: 9229061511df5f3e80dddbcc11c812bcf882d8ad
+SHA256: fa22f2b77c86c1614bb4792b74ecbda51d9015b880427b9ed44549a5cbc6065f
+Section: Tweaks
+Description: Removes "PROMOTED" posts from from the official Reddit app.
+Author: kemmis <rafe@kemmis.info>
+Name: Reddit No Ads
