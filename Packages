@@ -27,3 +27,19 @@ Section: Tweaks
 Description: Mute
 Author: Yin
 Name: StealthSnap
+
+Package: com.spark.nolowpowerautolock
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 300
+Depends: mobilesubstrate
+Filename: ./debs/com.spark.nolowpowerautolock_0.0.2.deb
+Size: 26888
+MD5sum: cc494732f1cfa8624d4e405b5167efc2
+SHA1: 056d3a9009f6f5b12e7f2cd1057953db7b9b26dc
+SHA256: 9f905a94598455599302257b049d0fbc9975ae30935f9e2b765b649421cc055f
+Section: Tweaks
+Description: Prevent your device from Auto-Locking when in low power mode
+Author: Spark
+Name: NoLowPowerAutoLock
