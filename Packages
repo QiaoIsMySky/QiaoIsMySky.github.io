@@ -75,3 +75,97 @@ Section: Tweaks
 Description: Prevent your device from Auto-Locking when in low power mode
 Author: Spark
 Name: NoLowPowerAutoLock
+
+Package: com.tigisoftware.filza64bit
+Version: 3.7.0-18
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 20132
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.7.0-18.deb
+Size: 8271118
+MD5sum: b66db1053510f37c34996de60f26fd8f
+SHA1: 027fc88d60e01792241510a1ebd8d5d70ba2f841
+SHA256: f026dbf10ad5038e99db31684c814e869dfe9493628f9e50f2fef8a5e5821e9c
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.exile90.icleanerpro
+Version: 7.7.5
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.7.5.deb
+Size: 4270207
+MD5sum: 3ef66d0819414d1e87650d1cd50a3cd5
+SHA1: 346a5c2e6d917b438b37756b7231f125b094e35d
+SHA256: 3836f4cea3a4d2aa4e36ca6ee70bb09b34830170d1d35ea11eab0df7049f00e3
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: net.angelxwind.appsyncunified
+Version: 41.1-NoA12
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 368
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.4)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_41.1-NoA12.deb
+Size: 33870
+MD5sum: e7636c1c38a61cd179401fd6c49dfde3
+SHA1: c5539996de2a1578cba1ec6138106b62f06fc119
+SHA256: 7e736ccf049c75c6cca41b94c47dd6bf742d01c3317f9163637b63efd7d9460a
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: net.tateu.calldismiss12
+Version: 1.0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Installed-Size: 292
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.calldismiss
+Filename: ./debs/net.tateu.calldismiss12_1.0.0~beta6.deb
+Size: 12824
+MD5sum: 8dc98fa86a17a44d733d480a0a4c5be6
+SHA1: dab6b31b5c941294ec1d479aea44ffb5314ecf81
+SHA256: b0c55c8e4ee0a7fe8a30ec9f19a7ca23abe3d6227f51c992187bda8006fef7a5
+Section: Tweaks
+Description: Use Home Button to ignore Phone/FaceTime Calls.
+Author: tateu (Josh Harris) <tateu@tateu.net>
+Depiction: http://www.tateu.net/repo/html/?p=calldismiss12
+Name: CallDismiss12
+
+Package: net.angelxwind.betteryoutube
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: ./debs/net.angelxwind.betteryoutube_8.88.deb
+Size: 716
+MD5sum: ac22c59af7d4015eaf42672ef31ad2ac
+SHA1: de169998881bfe78f6e2df0589a6dac39a51889f
+SHA256: e03cdbdf5e562879d8f5e07df2cfaa3048dbe5c219c06d4234641db6d8ae13ce
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Better YouTube (mikoto)
