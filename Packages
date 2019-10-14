@@ -43,3 +43,19 @@ Section: Tweaks
 Description: Prevent your device from Auto-Locking when in low power mode
 Author: Spark
 Name: NoLowPowerAutoLock
+
+Package: com.4nni3.respringbutton
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 144
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.4nni3.respringbutton_1.1.deb
+Size: 12342
+MD5sum: 14d149ea46a2bc3deac068999b33e0e0
+SHA1: a7cac7fd92d3901f9a11227bd3c1fa855125a82b
+SHA256: 79e2ac6123e9b1c7530ea70b87bb043c23cc8bd2b90bcea22f4c04f1f44d37ed
+Section: Addons (ControlCenter)
+Description: コントロールセンターからリスプリング
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: RespringButton
