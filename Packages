@@ -241,14 +241,19 @@ Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 1408
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
 Depends: com.creaturecoding.libcspreferences
-Filename: ./debs/com.creaturecoding.shuffle_1.0.4.deb
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: /root/deb/com.creaturecoding.shuffle_1.0.4.deb
 Size: 177652
 MD5sum: 0665119b232cc40faf761c6f38c10cc4
 SHA1: 5868b2e636d1627cc34adba65adb109ccb19bea9
 SHA256: 0ae1052e45cf9c551a880c84c220bae05a2c49735ca7aa5b96efb182de824f7a
 Section: Tweaks
+Homepage: https://creaturecoding.com/
 Description: Mix up your preferences
+Tag: purpose::extension, compatible_min::iosiOS10
 Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: shuffle
 
