@@ -1,0 +1,77 @@
+Package: com.simalary.auxiliumdevelopment.previewbegone
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Simalary (Chris)
+Installed-Size: 117
+Depends: mobilesubstrate, firmware(>=11.0)
+Filename: ./debs/com.simalary.auxiliumdevelopment.previewbegone_1.0_iphoneos-arm.deb
+Size: 2882
+MD5sum: 3d312d2844ea5ef7568922e6796eadcc
+SHA1: 66616c0c6724186683735f5566d346f2e32e648c
+SHA256: 1371a2f0912ebd2497dd0add2300d60885a358c6ed759a720ae7cc3755877eac
+Section: Tweaks
+Description: Eliminate the screenshot preview on iOS 11.
+Author: Simalary (Chris)
+Name: PreviewBeGone
+
+Package: io.github.QiaoIsMySky.stealthsnap
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Yin
+Filename: ./debs/io.github.QiaoIsMySky.stealthsnap_2.0_iphoneos-arm.deb
+Size: 556
+MD5sum: b162b20b4c682ac01f8cb39e2665df10
+SHA1: 2193996930ed35c76fa20f5f244e91e8dc31b48a
+SHA256: 7a2f788c4ceafbd2cd07f0de4297d74462474f59826550e29a0903b2dc7abbe5
+Section: Tweaks
+Description: Mute
+Author: Yin
+Name: StealthSnap
+
+Package: com.spark.nolowpowerautolock
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 300
+Depends: mobilesubstrate
+Filename: ./debs/com.spark.nolowpowerautolock_0.0.2.deb
+Size: 26888
+MD5sum: cc494732f1cfa8624d4e405b5167efc2
+SHA1: 056d3a9009f6f5b12e7f2cd1057953db7b9b26dc
+SHA256: 9f905a94598455599302257b049d0fbc9975ae30935f9e2b765b649421cc055f
+Section: Tweaks
+Description: Prevent your device from Auto-Locking when in low power mode
+Author: Spark
+Name: NoLowPowerAutoLock
+
+Package: com.4nni3.respringbutton
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 144
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.4nni3.respringbutton_1.1.deb
+Size: 12342
+MD5sum: 14d149ea46a2bc3deac068999b33e0e0
+SHA1: a7cac7fd92d3901f9a11227bd3c1fa855125a82b
+SHA256: 79e2ac6123e9b1c7530ea70b87bb043c23cc8bd2b90bcea22f4c04f1f44d37ed
+Section: Addons (ControlCenter)
+Description: コントロールセンターからリスプリング
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: RespringButton
+
+Package: com.yadkin.redditnoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: kemmis <rafe@kemmis.info>
+Installed-Size: 116
+Depends: mobilesubstrate
+Filename: ./debs/com.yadkin.redditnoads_0.0.1.deb
+Size: 2744
+MD5sum: 0d8f278f830b9e70f5a7e34d2458b001
+SHA1: 9229061511df5f3e80dddbcc11c812bcf882d8ad
+SHA256: fa22f2b77c86c1614bb4792b74ecbda51d9015b880427b9ed44549a5cbc6065f
+Section: Tweaks
+Description: Removes "PROMOTED" posts from from the official Reddit app.
+Author: kemmis <rafe@kemmis.info>
+Name: Reddit No Ads
