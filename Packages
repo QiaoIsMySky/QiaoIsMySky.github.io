@@ -106,10 +106,8 @@ MD5sum: 3ef66d0819414d1e87650d1cd50a3cd5
 SHA1: 346a5c2e6d917b438b37756b7231f125b094e35d
 SHA256: 3836f4cea3a4d2aa4e36ca6ee70bb09b34830170d1d35ea11eab0df7049f00e3
 Section: Utilities
-Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
 Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
@@ -128,10 +126,8 @@ MD5sum: e7636c1c38a61cd179401fd6c49dfde3
 SHA1: c5539996de2a1578cba1ec6138106b62f06fc119
 SHA256: 7e736ccf049c75c6cca41b94c47dd6bf742d01c3317f9163637b63efd7d9460a
 Section: Tweaks
-Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.tateu.calldismiss12
@@ -152,20 +148,56 @@ Author: tateu (Josh Harris) <tateu@tateu.net>
 Depiction: http://www.tateu.net/repo/html/?p=calldismiss12
 Name: CallDismiss12
 
-Package: net.angelxwind.betteryoutube
-Version: 8.88
+Package: com.ryleyangus.libertylite
+Version: 0.2.10
 Architecture: iphoneos-arm
-Maintainer: Karen Tsai (angelXwind)
-Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
-Filename: ./debs/net.angelxwind.betteryoutube_8.88.deb
-Size: 716
-MD5sum: ac22c59af7d4015eaf42672ef31ad2ac
-SHA1: de169998881bfe78f6e2df0589a6dac39a51889f
-SHA256: e03cdbdf5e562879d8f5e07df2cfaa3048dbe5c219c06d4234641db6d8ae13ce
+Maintainer: Ryley Angus
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty
+Filename: ./debs/com.ryleyangus.libertylite_0.2.10.deb
+Size: 46610
+MD5sum: de8005d35c2204becf725c327f68e1e5
+SHA1: 434f034c55b792f51216342afd04ab965a614570
+SHA256: 01574e57f52163b9c776c8ea86b03e511b3dcbc0918cdedef9ceedd71e23a9f8
 Section: Tweaks
-Homepage: http://cydia.angelxwind.net/
-Description: Transitional package for mikoto.
-Tag: cydia::obsolete
-Author: Karen Tsai (angelXwind)
-Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
-Name: Better YouTube (mikoto)
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite
+
+Package: com.matchstic.reprovision
+Version: 0.4.5
+Architecture: iphoneos-arm
+Maintainer: Matt Clarke <matt@incendo.ws>
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Filename: ./debs/com.matchstic.reprovision_0.4.5.deb
+Size: 10687828
+MD5sum: 2af870e436036f779fb2720a0b71c1fb
+SHA1: a1d1bb6de53cd73274182243f1f2dc55b5cc0c23
+SHA256: 7aee1fdcb58b591288d7659bf1b4f27514852c4c234701c13d8bfaa26ae7d46e
+Section: System
+Description: Re-sign applications on your device
+Author: Matt Clarke <matt@incendo.ws>
+Dev: Matt Clarke <matt@incendo.ws>
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Name: ReProvision
+
+Package: ru.rejail.3gunrestrictor5
+Version: 5.9.10
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Depends: mobilesubstrate (>= 0.9.5000), applist (>= 1.5.12), com.rpetrich.rocketbootstrap (>=1.0.5)
+Conflicts: com.crashx.unrestrictor3g
+Filename: ./debs/ru.rejail.3gunrestrictor5_5.9.10.deb
+Size: 3055038
+MD5sum: 3a8aadbf6975319556f4b374be2eae64
+SHA1: f50de0582fb8b9c4a501c29a5ab152d033f4d940
+SHA256: d133b5718236decfb8eda59671899e7739033775a29c018bba850b66428f6115
+Section: Tweaks
+Description: PreTend Wifi
+Author: Kim Streich
+Icon: file:///Applications/Unrestrictor3G.app/Icon.png
+Name: 3G Unrestrictor 5
