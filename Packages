@@ -66,7 +66,7 @@ Architecture: iphoneos-arm
 Maintainer: kemmis <rafe@kemmis.info>
 Installed-Size: 116
 Depends: mobilesubstrate
-Filename: /root/deb/com.yadkin.redditnoads_0.0.1.deb
+Filename: ./debs/com.yadkin.redditnoads_0.0.1.deb
 Size: 2744
 MD5sum: 0d8f278f830b9e70f5a7e34d2458b001
 SHA1: 9229061511df5f3e80dddbcc11c812bcf882d8ad
