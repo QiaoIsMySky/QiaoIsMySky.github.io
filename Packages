@@ -279,7 +279,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 156
 Depends: mobilesubstrate
-Filename: /root/deb/netskao.zhihunoads_1.0.deb
+Filename: ./debs/netskao.zhihunoads_1.0.deb
 Size: 10864
 MD5sum: ed4a24b09376cda1a3655ad293ac12ea
 SHA1: 3f3ee3fe7c89c030ee8214af173e3e71ed0958b1
