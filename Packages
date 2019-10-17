@@ -342,3 +342,18 @@ Description: Swipe Down To Kill Apps
 Author: cemck
 Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
 Name: KillX Pro
+
+Package: com.yourepo.jpet26.youtubetools1
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: Justin Petkovic <justinpetkovic1994@outlook.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.jpet26.youtubetools1_4.0.deb
+Size: 21378
+MD5sum: 82b00c00f9721e92ad2046d43a74fe24
+SHA1: 70a7161a9cca20fb79a432f077bcd5e65ce7faf3
+SHA256: d6cf54e23dfad95c93c1d30abb0b9f6d8532146dc6689de4fb9c2c0018feaa40
+Section: Tweaks
+Description: Essential toolbox for YouTube app.
+Author: Justin Petkovic <justinpetkovic1994@outlook.com>
+Name: YouTube Tools
