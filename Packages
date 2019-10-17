@@ -324,3 +324,21 @@ Description: Once Kill Apps
 Author: ichitaso <willfeeltips+kbxs@gmail.com>
 Icon: file:///Library/PreferenceBundles/KillBackgroundSettings.bundle/KB_icon@2x.png
 Name: KillBackgroundXS
+
+Package: ru.rejail.killx
+Version: 1.3k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 744
+Depends: mobilesubstrate, applist, ws.hbang.common (>= 1.13), firmware (>= 11.0)
+Conflicts: com.cemck.killx
+Filename: ./debs/ru.rejail.killx_1.3k.deb
+Size: 153704
+MD5sum: 5591969640771395941a3bb958046211
+SHA1: 55a82d87554bf36c40887bc555e8a3e544688857
+SHA256: c5878030d212e9241bb970fcb575056c1959ae2d53a1d0e70dedbe3cbc00df3f
+Section: Tweaks
+Description: Swipe Down To Kill Apps
+Author: cemck
+Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
+Name: KillX Pro
