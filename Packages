@@ -305,3 +305,22 @@ Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.2
 Author: CokePokes
 Name: AppStore++
+
+Package: ru.rejail.killbackgroundxs
+Version: 1.0.5k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1348
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
+Conflicts: tw.garynil.swipehome, com.ichitaso.killbackground9, com.ichitaso.killbackground10, com.ichitaso.killbackground11, com.julioverne.sbcard
+Replaces: com.ichitaso.killbackgroundxs
+Filename: ./debs/ru.rejail.killbackgroundxs_1.0.5k.deb
+Size: 428570
+MD5sum: b46ea7d56de3e39a2122f74bccff652a
+SHA1: d2efd994cc8c1912baadc504edfb541662277556
+SHA256: 7338176d04de4f5fd673fae6f12d982794b9c8fac3e1a57168dcb85af7f99500
+Section: Tweaks
+Description: Once Kill Apps
+Author: ichitaso <willfeeltips+kbxs@gmail.com>
+Icon: file:///Library/PreferenceBundles/KillBackgroundSettings.bundle/KB_icon@2x.png
+Name: KillBackgroundXS
