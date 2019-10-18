@@ -357,3 +357,19 @@ Section: Tweaks
 Description: Essential toolbox for YouTube app.
 Author: Justin Petkovic <justinpetkovic1994@outlook.com>
 Name: YouTube Tools
+
+Package: com.pulandres.deluminator
+Version: 2.1.9
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.3), applist, preferenceloader, com.pulandres.foxforthack
+Filename: ./debs/com.pulandres.deluminator_2.1.9.deb
+Size: 379640
+MD5sum: f80517f1f34ad2de38f748585f76dc75
+SHA1: cc098ac4f33cbdc37cf2ebc2e86c2ea8053c2847
+SHA256: 94610469a9090d3253cc7e1a54db8d086ff70825384d88524a3c9413e6bc4f1b
+Section: Tweaks
+Description: Web darkmode
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/deluminatorsettings.bundle/icon@3x.png
+Name: Deluminator
