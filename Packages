@@ -180,3 +180,78 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
+
+Package: com.creaturecoding.shuffle
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1408
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.creaturecoding.shuffle_1.0.4_iphoneos-arm.deb
+Size: 177652
+MD5sum: 0665119b232cc40faf761c6f38c10cc4
+SHA1: 5868b2e636d1627cc34adba65adb109ccb19bea9
+SHA256: 0ae1052e45cf9c551a880c84c220bae05a2c49735ca7aa5b96efb182de824f7a
+Section: Tweaks
+Description: Mix up your preferences
+Tag: purpose::extension, compatible_min::iosiOS10
+Author: CreatureSurvive <support@creaturecoding.com>
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: shuffle
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 4652
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./debs/com.creaturecoding.libcspreferences_1.2.0_iphoneos-arm.deb
+Size: 629010
+MD5sum: 6c7dacefe5e329ede71dd5e3c4984641
+SHA1: f66d400bc754cca0b18d77a8ab52d7ac12f356bc
+SHA256: 55215ca33d96ea69c58b7b4234a08c4eab26ff1a8fb2994f0bd491c6bd8de3c3
+Section: System
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iosiOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Name: libCSPreferences
+
+Package: com.exile90.icleanerpro
+Version: 7.7.5
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.7.5.deb
+Size: 5385562
+MD5sum: 5b6209151608ac092b4805833691bd9d
+SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
+SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
+Section: Utilities
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: net.angelxwind.appsyncunified
+Version: 48.0-NoChimera
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 384
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.4)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, com.ex.substitute (<< 0.0.13), com.ex.libsubstitute (<= 0.1.0-coolstar)
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_48.0-NoChimera.deb
+Size: 34266
+MD5sum: 284d037691db9ab1361e8fabae28ea3e
+SHA1: 0070cd2dc6c5f879f81b5ec6384d9145df9253a2
+SHA256: 88900f9ac2b00f09ef3dcf0caa9aeaeab0e8a6c2dfac13d1934ae16241dc20cf
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Name: AppSync Unified (NO CHIMERA SUPPORT)
