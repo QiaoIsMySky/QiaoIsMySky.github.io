@@ -164,19 +164,19 @@ Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.2
 Author: CokePokes
 Name: AppStore++
 
-Package: xyz.coolstar.spidercrack233
-Version: 0.0.2
+Package: com.tigisoftware.filza64bit
+Version: 3.7.0-18
 Architecture: iphoneos-arm
-Maintainer: Spider
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: ./debs/xyz.coolstar.spidercrack233_0.0.2_iphoneos-arm.deb
-Size: 5276
-MD5sum: be75d5c687250b0427458138ec35adc7
-SHA1: 80fa87bc6fcd6f1f1bed651c856d1a377507be7e
-SHA256: 6c406af6bfbbe3c0bb54c4f2a9a86c4c14ce09ac4a5e8505c8655e16fd78a03b
-Section: Tweaks
-Author: Spider
-Icon: file:///Applications/Cydia.app/Sections/Security.png
-Name: 电话助手全版本验证破解补丁
-
+Maintainer: TIGI Software
+Installed-Size: 20132
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.7.0-18.deb
+Size: 8271118
+MD5sum: b66db1053510f37c34996de60f26fd8f
+SHA1: 027fc88d60e01792241510a1ebd8d5d70ba2f841
+SHA256: f026dbf10ad5038e99db31684c814e869dfe9493628f9e50f2fef8a5e5821e9c
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
