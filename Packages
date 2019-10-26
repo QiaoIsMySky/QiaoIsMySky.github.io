@@ -238,20 +238,20 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: net.angelxwind.appsyncunified
-Version: 48.0-NoChimera
+Version: 60.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 384
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.4)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, com.ex.substitute (<< 0.0.13), com.ex.libsubstitute (<= 0.1.0-coolstar)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, science.xnu.substitute, com.ex.substitute (<< 0.0.13), com.ex.libsubstitute (<= 0.1.0-coolstar)
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_48.0-NoChimera.deb
-Size: 34266
-MD5sum: 284d037691db9ab1361e8fabae28ea3e
-SHA1: 0070cd2dc6c5f879f81b5ec6384d9145df9253a2
-SHA256: 88900f9ac2b00f09ef3dcf0caa9aeaeab0e8a6c2dfac13d1934ae16241dc20cf
+Filename: ./debs/net.angelxwind.appsyncunified_60.0.deb
+Size: 34264
+MD5sum: 60dde27a008e433f676d5772c5ab9340
+SHA1: d930c9f6d3c0b530c020247fd3021d89982ca79c
+SHA256: 461f64b3634ca6b0a2338800e8b58dcaa12a4fdfa5e2fd16f17c0c0884fd1c87
 Section: Tweaks
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Name: AppSync Unified (NO CHIMERA SUPPORT)
+Name: AppSync Unified
