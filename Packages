@@ -134,7 +134,7 @@ Maintainer: WZteam <admin@abcydia.com>
 Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
 Depends: com.haoerloveyou.ccpatch
 Replaces: com.abcydia.1533i266
-Filename: /root/deb/com.abcydia.1533ios9_2.7.5.deb
+Filename: ./debs/com.abcydia.1533ios9_2.7.5.deb
 Size: 22038
 MD5sum: c0698bac90274baf2bec70fb39762974
 SHA1: 3c331be7631adf969262b82ebb4632ce75ff8618
@@ -151,7 +151,7 @@ Maintainer: WZteam <admin@abcydia.com>
 Pre-Depends: firmware (>= 7.0)
 Depends: mobilesubstrate
 Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
-Filename: /root/deb/com.haoerloveyou.ccpatch_1.2.deb
+Filename: ./debs/com.haoerloveyou.ccpatch_1.2.deb
 Size: 10760
 MD5sum: 6c69d3cb6d727f1f0971d487016cd71f
 SHA1: 7c5cfe0dbf8be1f86d4b9be51d0c0fb1325839ca
