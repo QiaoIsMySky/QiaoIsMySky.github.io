@@ -28,22 +28,6 @@ Description: Mute
 Author: Yin
 Name: StealthSnap
 
-Package: com.4nni3.respringbutton
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: 4nni3 <4nni3.14@gmail.com>
-Installed-Size: 144
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/com.4nni3.respringbutton_1.1.deb
-Size: 12342
-MD5sum: 14d149ea46a2bc3deac068999b33e0e0
-SHA1: a7cac7fd92d3901f9a11227bd3c1fa855125a82b
-SHA256: 79e2ac6123e9b1c7530ea70b87bb043c23cc8bd2b90bcea22f4c04f1f44d37ed
-Section: Addons (ControlCenter)
-Description: ReSpring
-Author: 4nni3 <4nni3.14@gmail.com>
-Name: RespringButton
-
 Package: com.yadkin.redditnoads
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -127,36 +111,18 @@ Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.2
 Author: CokePokes
 Name: AppStore++
 
-Package: com.abcydia.1533ios9
-Version: 2.7.5
+Package: xyz.coolstar.spidercrack233
+Version: 0.0.2
 Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.3)
-Depends: com.haoerloveyou.ccpatch
-Replaces: com.abcydia.1533i266
-Filename: ./debs/com.abcydia.1533ios9_2.7.5.deb
-Size: 22038
-MD5sum: c0698bac90274baf2bec70fb39762974
-SHA1: 3c331be7631adf969262b82ebb4632ce75ff8618
-SHA256: 06fb1d1d48be4aea6f813d76e23b67db64e651df1fcb4d311c43b1b1a0bf92e8
-Section: Networking
-Author: ABCydia <admin@abcydia.com>
-Name: Active 1532/33 4G iOS9/10
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.haoerloveyou.ccpatch
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: WZteam <admin@abcydia.com>
-Pre-Depends: firmware (>= 7.0)
+Maintainer: Yin
+Installed-Size: 104
 Depends: mobilesubstrate
-Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
-Filename: ./debs/com.haoerloveyou.ccpatch_1.2.deb
-Size: 10760
-MD5sum: 6c69d3cb6d727f1f0971d487016cd71f
-SHA1: 7c5cfe0dbf8be1f86d4b9be51d0c0fb1325839ca
-SHA256: 2287e3812df7ce13c9958d044c16978ef81f748fc4f899cf3770f4dad4913699
-Section: Tweaks
-Author: HuWenDong <admin@abcydia.com>
-Name: CommCenter patch for iOS 7~10
-Sponsor: ABCydia <http://www.abcydia.com>
+Filename: ./debs/xyz.coolstar.spidercrack233_0.0.2_iphoneos-arm.deb
+Size: 5276
+MD5sum: be75d5c687250b0427458138ec35adc7
+SHA1: 80fa87bc6fcd6f1f1bed651c856d1a377507be7e
+SHA256: 6c406af6bfbbe3c0bb54c4f2a9a86c4c14ce09ac4a5e8505c8655e16fd78a03b
+Section: 破解
+Author: Yin
+Icon: file:///Applications/Cydia.app/Sections/Security.png
+Name: 电话助手全版本验证破解补丁
