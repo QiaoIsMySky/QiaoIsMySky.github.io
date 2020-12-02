@@ -1,112 +1,84 @@
-Package: com.simalary.auxiliumdevelopment.previewbegone
-Version: 1.0
+Package: kr.xsf1re.flyjbx
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Simalary (Chris)
-Installed-Size: 117
-Depends: mobilesubstrate, firmware(>=11.0)
-Filename: ./debs/com.simalary.auxiliumdevelopment.previewbegone_1.0_iphoneos-arm.deb
-Size: 2882
-MD5sum: 3d312d2844ea5ef7568922e6796eadcc
-SHA1: 66616c0c6724186683735f5566d346f2e32e648c
-SHA256: 1371a2f0912ebd2497dd0add2300d60885a358c6ed759a720ae7cc3755877eac
+Maintainer: XsF1re
+Installed-Size: 1244
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader, firmware (>=11.0)
+Conflicts: kr.xsf1re.flyjb
+Filename: ./debs/kr.xsf1re.flyjbx_1.0.0_iphoneos-arm.deb
+Size: 451708
+MD5sum: bca6238ece0bcadac32d62bd47d0ac0a
+SHA1: bbf15ab7eaef7bf1c91716f30f8b485f06c9d7d9
+SHA256: 0d9ffa46e17a90fb378fb3f0ca4255531b769c5ba880cc239f6343287f4fb9e3
 Section: Tweaks
-Description: Eliminate the screenshot preview on iOS 11.
-Author: Simalary (Chris)
-Name: PreviewBeGone
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB X
 
-Package: io.github.QiaoIsMySky.stealthsnap
-Version: 2.0
+Package: kr.xsf1re.mcpatch
+Version: 0.0.1
 Architecture: iphoneos-arm
-Maintainer: Yin
-Filename: ./debs/io.github.QiaoIsMySky.stealthsnap_2.0_iphoneos-arm.deb
-Size: 556
-MD5sum: b162b20b4c682ac01f8cb39e2665df10
-SHA1: 2193996930ed35c76fa20f5f244e91e8dc31b48a
-SHA256: 7a2f788c4ceafbd2cd07f0de4297d74462474f59826550e29a0903b2dc7abbe5
-Section: Tweaks
-Description: Mute
-Author: Yin
-Name: StealthSnap
-
-Package: com.yadkin.redditnoads
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: kemmis <rafe@kemmis.info>
-Installed-Size: 116
+Maintainer: XsF1re
+Installed-Size: 104
 Depends: mobilesubstrate
-Filename: ./debs/com.yadkin.redditnoads_0.0.2.deb
-Size: 2744
-MD5sum: bd1d4b7bafe127208e2cd979e4dd555d
-SHA1: c575bc140f79021f8c3a8f2d9e78af2ad34f9454
-SHA256: be9f28dfedad1e761127a41590a284aa3d8efa89f1e74046fbe760a8b314c6de
+Filename: ./debs/kr.xsf1re.mcpatch_0.0.1_iphoneos-arm.deb
+Size: 2466
+MD5sum: e322ed82fc9dbbeeec990de05d688cac
+SHA1: 9552bee40218b4b8ac80f093a6ef424eedc66955
+SHA256: 946bcd380dcbdf45e74440dc434756f44549e640cbe1ccb934de326181907c8f
 Section: Tweaks
-Description: Removes "PROMOTED" posts from from the official Reddit app.
-Author: kemmis <rafe@kemmis.info>
-Name: Reddit No Ads
+Description: Make allow installing profile Anything regardless of targetDeviceType!
+Author: XsF1re
+Name: MCPatch
 
-Package: com.spark.nolowpowerautolock
-Version: 0.0.3
+Package: com.mtac.ctf
+Version: 1.0.4
 Architecture: iphoneos-arm
-Maintainer: Spark
-Installed-Size: 556
+Maintainer: MTAC
+Installed-Size: 104
 Depends: mobilesubstrate
-Filename: ./debs/com.spark.nolowpowerautolock_0.0.3.deb
-Size: 32322
-MD5sum: a9239b6f8bc7d524d393a5ed8381ea70
-SHA1: 86946b7faf8ef6c8e4263117dec959214a7efe16
-SHA256: 6081b6db4b18270ab21b5c9e9651aa64f948a3d02b9f115cf9d86da5e5d68ca3
+Filename: ./debs/com.mtac.ctf_1.0.4_iphoneos-arm.deb
+Size: 3302
+MD5sum: d5c7a9797f21e4bae957b0bbded4a770
+SHA1: d59091ed9019b43221d996ad0664362f9f8a9099
+SHA256: f0c571660aecb6e320861ff512e001b1b310aad5856abf46771badd3c075743b
 Section: Tweaks
-Description: Prevent your device from Auto-Locking when in low power mode
-Author: Spark
-Name: NoLowPowerAutoLock
+Description: Stop CoreText frame buffer bugs on iOS 13
+Author: MTAC
+Name: CaptureTheFlag
 
-Package: com.ryleyangus.libertylite
-Version: 0.2.10
+Package: com.creaturecoding.crux
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Ryley Angus
-Installed-Size: 476
-Depends: mobilesubstrate, preferenceloader, applist
-Conflicts: com.ryleyangus.liberty
-Filename: ./debs/com.ryleyangus.libertylite_0.2.10.deb
-Size: 46610
-MD5sum: de8005d35c2204becf725c327f68e1e5
-SHA1: 434f034c55b792f51216342afd04ab965a614570
-SHA256: 01574e57f52163b9c776c8ea86b03e511b3dcbc0918cdedef9ceedd71e23a9f8
-Section: Tweaks
-Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported, so certain apps (PayPal, HSBC HK) will still be problematic.
-Author: Ryley Angus
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Name: Liberty Lite
-
-Package: netskao.zhihunoads
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Nets
-Installed-Size: 156
-Depends: mobilesubstrate
-Filename: ./debs/netskao.zhihunoads_1.0.deb
-Size: 10864
-MD5sum: ed4a24b09376cda1a3655ad293ac12ea
-SHA1: 3f3ee3fe7c89c030ee8214af173e3e71ed0958b1
-SHA256: a37c5bec8cb0b67fec6c3d30f34401717b9fd224315a51f3269e9f4e94c36e35
-Section: Tweaks
-Description: Zhihu Remove Ads
-Author: Netskao
-Name: Zhihu NoAds
-
-Package: com.cokepokes.appstoreplusplus
-Version: 0.9.7
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.7.deb
-Size: 1320492
-MD5sum: b3201af1744133cb79bf080c145998ea
-SHA1: 1159e548602d57603473c374f4e1a03e97fb5850
-SHA256: daab5e2b1b0a6d644fb8ad560571208decce4b510f5741193e0892f0806a632c
-Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 68
+Depends: firmware (>= 9.0)
+Filename: ./debs/com.creaturecoding.crux_1.0.0_iphoneos-arm.deb
+Size: 2784
+MD5sum: f981050a79303069332bc1a3f881ceed
+SHA1: fa939c99522a475e51486be13e3cf395c00db299
+SHA256: e08f8043f2e67df8a1e0bd1fb0ed7e052e40d29179859688aefec76412add126
+Section: System
 Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-12.2
-Author: CokePokes
-Name: AppStore++
+Homepage: https://creaturecoding.com/
+Description: run any command as root. `crux /usr/bin/dpkg install com.creaturcoding.crux`
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturesurvive.github.io/repo/cydia/crux/depiction/
+Dev: CreatureSurvive
+Name: crux
+
+Package: com.yourepo.yazxoi.sugarcane13
+Version: 1.2-3
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix, kasiimh1, baptistecdr <kobebertels@icloud.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.yourepo.yazxoi.sugarcane13_1.2-3_iphoneos-arm.deb
+Size: 5646
+MD5sum: 7e8e825aabbba6644a5fac4e154d056d
+SHA1: d6ceb3d2a464d64a29b20b56135cac12dc66651a
+SHA256: 29ad092385999f996314964206fd91695942ff74d939df3d3054236194503688
+Section: Tweaks
+Description: Get percentages for the sliders in the Control Center on iOS 13
+Author: iOS Creatix, kasiimh1, baptistecdr <kobebertels@icloud.com>
+Name: SugarCane13
