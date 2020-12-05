@@ -10,6 +10,7 @@ MD5sum: e28af7473fb9801ba31f791a2e064c0e
 SHA1: 6a9c6d1ed9f8efafd38b8d783407fea293e9215f
 SHA256: 8833c782278bf28d29a6388c49f66349234bc2a6f7672b887a7d9c81bf90c709
 Section: Tweaks
+Description: Hide JB！
 Author: XsF1re
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 Name: FlyJB
