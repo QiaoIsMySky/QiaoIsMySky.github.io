@@ -81,3 +81,20 @@ Section: Tweaks
 Description: Get percentages for the sliders in the Control Center on iOS 13
 Author: iOS Creatix, kasiimh1, baptistecdr <kobebertels@icloud.com>
 Name: SugarCane13
+
+Package: github.io.alierya.bringbacktheglass
+Version: 0.0.1~Beta1
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 692
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Filename: ./debs/github.io.alierya.bringbacktheglass_0.0.1_Beta1_iphoneos-arm.deb
+Size: 314578
+MD5sum: 8fa57cc524e4692411360e7d370eb46c
+SHA1: e4c8448cd3bedb0c87fc5bb835da42198cdbac4a
+SHA256: 9393a4d655e7dd93cda1266c02415b207d21f2b13b297f7f86555b2d0d4f58a3
+Section: Tweaks
+Description: Bring back the magnifying glass on iOS 13
+Author: Spark
+Depiction: 光标放大镜！
+Name: BringBackTheGlass
